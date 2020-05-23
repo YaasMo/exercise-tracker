@@ -63,9 +63,9 @@ export default class CreateExercise extends Component {
   }
 
   onSubmit(e) {
-    e.preventDefault();
+    e.preventDefault(); // prevents default web form action
 
-    const exercise = {
+    const exercise = { // this occurs instead
       username: this.state.username,
       description: this.state.description,
       duration: this.state.duration,
