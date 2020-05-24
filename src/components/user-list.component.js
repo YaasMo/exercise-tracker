@@ -58,7 +58,7 @@ export default class UsersList extends Component { // class component
               <th>Duration</th>
               <th>Date</th>
               <th>Actions</th> */}
-              <th></th>
+              <th>Actions</th>
               <th></th>
               <th></th>
               <th></th>
